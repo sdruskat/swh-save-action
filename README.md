@@ -1,6 +1,6 @@
 # Software Heritage Save action
 
-A GitHub Action that saves a GitHub repository to the Software Heritage Archive.
+A GitHub Action that saves the GitHub repository it is being run on to the [Software Heritage Archive](https://www.softwareheritage.org/).
 
 ## Inputs
 
@@ -14,4 +14,6 @@ The result string from the call to the Software Heritage API. To track the actua
 
 ## Example usage
 
-uses: sdruskat/swh-save-action@v0.1.0
+```yml
+uses: sdruskat/swh-save-action@v1
+```
