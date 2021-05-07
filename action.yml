@@ -7,3 +7,6 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+branding:
+  icon: 'save'
+  color: 'orange'
