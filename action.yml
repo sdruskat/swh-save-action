@@ -1,5 +1,7 @@
 # action.yml
 name: 'Save to Software Heritage'
+icon: save
+color: green
 description: 'Saves the repository to the Software Heritage Archive'
 outputs:
   result: # id of output
