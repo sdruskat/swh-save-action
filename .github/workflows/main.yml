@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Save step
       id: save
-      uses: sdruskat/swh-save-action@main
+      uses: sdruskat/swh-save-action@v1
     # Use the output from the `hello` step
     - name: Print result
       run: echo "The result from the API call was ${{ steps.save.outputs.result }}"
