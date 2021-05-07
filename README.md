@@ -17,3 +17,12 @@ The result string from the call to the Software Heritage API. To track the actua
 ```yml
 uses: sdruskat/swh-save-action@v1.0.1
 ```
+**Note:** It is suggested to use this action sparingly, so as to not overburden the [Software Heritage API]().  
+Perhaps run this on `tags` only?
+
+```yml
+on:
+  push:
+    tags:
+    - '*'
+```
