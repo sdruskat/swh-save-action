@@ -8,4 +8,5 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ github.repository }}
+    # - ${{ github.repository }}
+    - ${{ env.GITHUB_REPOSITORY }}
