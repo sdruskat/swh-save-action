@@ -3,7 +3,7 @@ name: 'Save to Software Heritage'
 description: 'Saves the repository to the Software Heritage Archive'
 outputs:
   result: # id of output
-    description: 'Result of save action'
+    description: 'Result of call to Software Heritage API'
 runs:
   using: 'docker'
   image: 'Dockerfile'

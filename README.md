@@ -15,5 +15,5 @@ The result string from the call to the Software Heritage API. To track the actua
 ## Example usage
 
 ```yml
-uses: sdruskat/swh-save-action@v1
+uses: sdruskat/swh-save-action@v1.0.1
 ```
