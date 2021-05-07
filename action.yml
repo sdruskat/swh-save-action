@@ -1,0 +1,11 @@
+# action.yml
+name: 'Save to Software Heritage'
+description: 'Saves the repository to the Software Heritage Archive'
+outputs:
+  result: # id of output
+    description: 'Result of save action'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ github.repository }}
