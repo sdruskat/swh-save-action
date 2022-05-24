@@ -1,0 +1,28 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Software Heritage Save GitHub Action
+message: >-
+  If you use this action, please cite it in any of
+  your project outputs using the metadata from this
+  file.
+type: software
+authors:
+  - given-names: Stephan
+    family-names: Druskat
+    affiliation: German Aerospace Center (DLR)
+    orcid: 'https://orcid.org/0000-0003-4925-7248'
+repository-code: 'https://github.com/sdruskat/swh-save-action'
+url: >-
+  https://github.com/marketplace/actions/save-to-software-heritage
+abstract: >-
+  A GitHub Action that triggers a save to the
+  Software Heritage Archive for the GitHub repository
+  it is being run on.
+keywords:
+  - GitHub Action
+  - Software Heritage
+license: MIT
+version: 1.0.1
+date-released: '2021-05-07'
